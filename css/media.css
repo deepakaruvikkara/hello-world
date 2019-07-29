@@ -1,0 +1,57 @@
+/*==================================Media styles===================================*/
+	@media screen and ( min-width: 1600px ) 
+	{
+
+	}
+	
+	
+	
+	@media screen and ( max-width: 1200px ) 
+	
+	{
+
+		
+	}
+	
+	@media screen and ( min-width: 992px )
+	{
+		.menu-toggle{display: none;}
+		.main-menu{padding: 9px 0;}
+
+		.menu{background: none;display: block;opacity: 1;filter: alpha(opacity=100);border: none;width: auto;position: relative;top:inherit;right: inherit;}
+		.menu li {display: inline-block;}
+		.menu li a{color: #FFF;background: none;}
+		.menu li a:hover,.menu li.active a{color: #71f9ef;background: none;}
+	}
+	
+	@media screen and ( max-width: 991px ) 
+		
+	{
+		.footer{padding: 5px 0px;}
+		.footer .pull-right{float: none !important;}
+		.copyright,.ftr-menu{text-align: center;padding: 10px 0px;}
+		.ftr-menu li{margin: 0px 10px;}
+		.sec-head h2{font-size: 32px;}
+		.plan-wrapper{padding: 20px 0px;}
+		.section-content {padding: 30px 0px;}
+
+		.about-img{display: none;}
+
+		.who-we-are{padding: 0;border-left: none;}
+
+		.home-content h2{font-size: 20px;line-height: 36px;}
+		.home-content h2 span{font-size: 38px;}
+	}
+	@media screen and ( max-width: 768px ) {
+		.plan-item .plan-content .plan-price.border-left{border-left: none;margin: 0;padding: 0;border-top: 1px solid #71f9ef;padding-top: 15px;}
+		.plan-item .plan-content .plan-price{display: block;height: auto;padding: 20px 0px;margin: 0;width: 100%;text-align: center;}
+		.plan-item .plan-content .plan-price h4{text-align: center;}
+
+    
+		
+			
+	}
+	@media screen and ( max-width: 600px ) {
+
+	}
+	
